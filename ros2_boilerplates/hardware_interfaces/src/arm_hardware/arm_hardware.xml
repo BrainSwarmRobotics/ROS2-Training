@@ -1,0 +1,9 @@
+<library path="arm_hardware">
+  <class name="arm_hardware/ArmHardware"
+         type="arm_hardware::ArmHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      The Mobile Robot system interface.
+    </description>
+  </class>
+</library>
