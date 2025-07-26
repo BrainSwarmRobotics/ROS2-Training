@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "custom_message__py",
+		"source" : "/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message/custom_message__py"
+	}
+}

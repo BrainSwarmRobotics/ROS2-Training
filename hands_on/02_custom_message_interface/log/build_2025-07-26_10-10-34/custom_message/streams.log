@@ -1,0 +1,35 @@
+[0.010s] Invoking command in '/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/src/custom_message -DCMAKE_INSTALL_PREFIX=/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.120s] -- Detecting C compiler ABI info
+[0.187s] -- Detecting C compiler ABI info - done
+[0.195s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.195s] -- Detecting C compile features
+[0.195s] -- Detecting C compile features - done
+[0.198s] -- Detecting CXX compiler ABI info
+[0.275s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.433s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.532s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.533s]   By not providing "Findcustom_message.cmake" in CMAKE_MODULE_PATH this
+[0.533s]   project has asked CMake to find a package configuration file provided by
+[0.533s]   "custom_message", but CMake did not find one.
+[0.533s] 
+[0.533s]   Could not find a package configuration file provided by "custom_message"
+[0.533s]   with any of the following names:
+[0.533s] 
+[0.533s]     custom_messageConfig.cmake
+[0.533s]     custom_message-config.cmake
+[0.533s] 
+[0.533s]   Add the installation prefix of "custom_message" to CMAKE_PREFIX_PATH or set
+[0.533s]   "custom_message_DIR" to a directory containing one of the above files.  If
+[0.533s]   "custom_message" provides a separate development package or SDK, be sure it
+[0.534s]   has been installed.
+[0.534s] 
+[0.534s] [0m
+[0.534s] -- Configuring incomplete, errors occurred!
+[0.534s] See also "/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message/CMakeFiles/CMakeOutput.log".
+[0.538s] Invoked command in '/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/src/custom_message -DCMAKE_INSTALL_PREFIX=/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message

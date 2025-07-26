@@ -1,0 +1,215 @@
+[0.010s] Invoking command in '/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/src/custom_message -DCMAKE_INSTALL_PREFIX=/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message
+[0.022s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.143s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.147s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.431s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.605s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.838s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.860s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.861s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.888s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.888s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.889s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.889s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.910s] -- Found PythonExtra: .so  
+[0.941s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.965s] -- Added test 'lint_cmake' to check CMake code style
+[0.966s] -- Added test 'xmllint' to check XML markup files
+[0.969s] -- Configuring done
+[0.999s] -- Generating done
+[1.009s] -- Build files have been written to: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message
+[1.019s] Invoked command in '/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/src/custom_message -DCMAKE_INSTALL_PREFIX=/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message
+[1.021s] Invoking command in '/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message -- -j8 -l8
+[1.061s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.071s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.079s] [  6%] Built target ament_cmake_python_copy_custom_message
+[1.324s] [  9%] [32mBuilding C object CMakeFiles/custom_message__rosidl_generator_c.dir/rosidl_generator_c/custom_message/msg/detail/person__functions.c.o[0m
+[1.327s] [  9%] Built target custom_message__cpp
+[1.337s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.337s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.340s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.361s] running egg_info
+[1.362s] creating custom_message.egg-info
+[1.362s] writing custom_message.egg-info/PKG-INFO
+[1.363s] writing dependency_links to custom_message.egg-info/dependency_links.txt
+[1.363s] writing top-level names to custom_message.egg-info/top_level.txt
+[1.363s] writing manifest file 'custom_message.egg-info/SOURCES.txt'
+[1.365s] reading manifest file 'custom_message.egg-info/SOURCES.txt'
+[1.366s] writing manifest file 'custom_message.egg-info/SOURCES.txt'
+[1.375s] [ 22%] [32m[1mLinking C shared library libcustom_message__rosidl_generator_c.so[0m
+[1.407s] [ 22%] Built target ament_cmake_python_build_custom_message_egg
+[1.416s] [ 22%] Built target custom_message__rosidl_generator_c
+[1.427s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.427s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.430s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.597s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_message/msg/detail/person__type_support.cpp.o[0m
+[1.691s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/person__type_support_c.cpp.o[0m
+[1.747s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_message/msg/person__type_support.cpp.o[0m
+[1.777s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_message/msg/detail/dds_fastrtps/person__type_support.cpp.o[0m
+[1.843s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_message/msg/person__type_support.cpp.o[0m
+[1.859s] [ 51%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_message/msg/detail/person__type_support.c.o[0m
+[1.890s] [ 54%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_c.so[0m
+[1.897s] [ 58%] [32m[1mLinking C shared library libcustom_message__rosidl_typesupport_introspection_c.so[0m
+[1.936s] [ 58%] Built target custom_message__rosidl_typesupport_c
+[1.941s] [ 58%] Built target custom_message__rosidl_typesupport_introspection_c
+[2.005s] [ 61%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_introspection_cpp.so[0m
+[2.081s] [ 61%] Built target custom_message__rosidl_typesupport_introspection_cpp
+[2.106s] [ 64%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_cpp.so[0m
+[2.137s] [ 67%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_fastrtps_c.so[0m
+[2.149s] [ 67%] Built target custom_message__rosidl_typesupport_cpp
+[2.206s] [ 70%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.222s] [ 70%] Built target custom_message__rosidl_typesupport_fastrtps_c
+[2.283s] [ 70%] Built target custom_message__rosidl_typesupport_fastrtps_cpp
+[2.303s] [ 70%] Built target custom_message
+[2.323s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.596s] [ 74%] Built target custom_message__py
+[2.617s] [ 77%] [32mBuilding C object CMakeFiles/custom_message__rosidl_generator_py.dir/rosidl_generator_py/custom_message/msg/_person_s.c.o[0m
+[2.709s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/libcustom_message__rosidl_generator_py.so[0m
+[2.748s] [ 80%] Built target custom_message__rosidl_generator_py
+[2.767s] [ 90%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_c.c.o[0m
+[2.767s] [ 90%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.768s] [ 90%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.856s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.856s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.856s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.890s] [100%] Built target custom_message__rosidl_typesupport_fastrtps_c__pyext
+[2.890s] [100%] Built target custom_message__rosidl_typesupport_introspection_c__pyext
+[2.890s] [100%] Built target custom_message__rosidl_typesupport_c__pyext
+[2.901s] Invoked command in '/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message -- -j8 -l8
+[2.912s] Invoking command in '/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message
+[2.920s] -- Install configuration: ""
+[2.920s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/ament_index/resource_index/rosidl_interfaces/custom_message
+[2.920s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message
+[2.920s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg
+[2.920s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail
+[2.920s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/person__functions.h
+[2.920s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/person__type_support.h
+[2.920s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/person__struct.h
+[2.920s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/person__functions.c
+[2.921s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/rosidl_generator_c__visibility_control.h
+[2.921s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/person.h
+[2.921s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/environment/library_path.sh
+[2.921s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/environment/library_path.dsv
+[2.921s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_generator_c.so
+[2.921s] -- Set runtime path of "/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_generator_c.so" to ""
+[2.922s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message
+[2.922s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg
+[2.922s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail
+[2.922s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/person__rosidl_typesupport_fastrtps_c.h
+[2.922s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.922s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_c.so
+[2.922s] -- Set runtime path of "/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_c.so" to ""
+[2.922s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message
+[2.922s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg
+[2.922s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail
+[2.922s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/person__rosidl_typesupport_introspection_c.h
+[2.922s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/person__type_support.c
+[2.923s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.923s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_c.so
+[2.923s] -- Set runtime path of "/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_c.so" to ""
+[2.923s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_typesupport_c.so
+[2.923s] -- Set runtime path of "/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_typesupport_c.so" to ""
+[2.923s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message
+[2.923s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg
+[2.924s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail
+[2.924s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/person__traits.hpp
+[2.924s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/person__struct.hpp
+[2.924s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/person__type_support.hpp
+[2.924s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/person__builder.hpp
+[2.924s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/person.hpp
+[2.924s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.924s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message
+[2.924s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg
+[2.924s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail
+[2.924s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/person__rosidl_typesupport_fastrtps_cpp.hpp
+[2.924s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/dds_fastrtps
+[2.924s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.925s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_cpp.so
+[2.925s] -- Set runtime path of "/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.925s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message
+[2.925s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg
+[2.925s] -- Up-to-date: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail
+[2.925s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/person__rosidl_typesupport_introspection_cpp.hpp
+[2.925s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/include/custom_message/custom_message/msg/detail/person__type_support.cpp
+[2.925s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_cpp.so
+[2.926s] -- Set runtime path of "/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_cpp.so" to ""
+[2.926s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_typesupport_cpp.so
+[2.926s] -- Set runtime path of "/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_typesupport_cpp.so" to ""
+[2.926s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/environment/pythonpath.sh
+[2.926s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/environment/pythonpath.dsv
+[2.926s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info
+[2.926s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.926s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/PKG-INFO
+[2.927s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/top_level.txt
+[2.927s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.927s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message
+[2.927s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.927s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_c.c
+[2.927s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_introspection_c.c
+[2.927s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.927s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/__init__.py
+[2.927s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/libcustom_message__rosidl_generator_py.so
+[2.927s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/_custom_message_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.928s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg
+[2.928s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/__init__.py
+[2.928s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_person_s.c
+[2.928s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_person.py
+[2.928s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.960s] Listing '/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message'...
+[2.960s] Compiling '/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/__init__.py'...
+[2.960s] Listing '/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg'...
+[2.960s] Compiling '/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/__init__.py'...
+[2.960s] Compiling '/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/msg/_person.py'...
+[2.966s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.966s] -- Set runtime path of "/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.967s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.967s] -- Set runtime path of "/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.967s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.967s] -- Set runtime path of "/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/local/lib/python3.10/dist-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.968s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_generator_py.so
+[2.968s] -- Set runtime path of "/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/libcustom_message__rosidl_generator_py.so" to ""
+[2.968s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/msg/Person.idl
+[2.968s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/msg/Person.msg
+[2.968s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/lib/custom_message/person_publisher
+[2.968s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/ament_index/resource_index/package_run_dependencies/custom_message
+[2.969s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/ament_index/resource_index/parent_prefix_path/custom_message
+[2.969s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/environment/ament_prefix_path.sh
+[2.969s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/environment/ament_prefix_path.dsv
+[2.969s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/environment/path.sh
+[2.969s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/environment/path.dsv
+[2.969s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/local_setup.bash
+[2.969s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/local_setup.sh
+[2.969s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/local_setup.zsh
+[2.970s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/local_setup.dsv
+[2.970s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/package.dsv
+[2.970s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/ament_index/resource_index/packages/custom_message
+[2.970s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cExport.cmake
+[2.970s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cExport-noconfig.cmake
+[2.970s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cExport.cmake
+[2.971s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.971s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport.cmake
+[2.971s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.971s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport.cmake
+[2.971s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport-noconfig.cmake
+[2.971s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_cppExport.cmake
+[2.971s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.972s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.972s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport.cmake
+[2.972s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.972s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport.cmake
+[2.972s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport-noconfig.cmake
+[2.972s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_pyExport.cmake
+[2.972s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/export_custom_message__rosidl_generator_pyExport-noconfig.cmake
+[2.973s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/rosidl_cmake-extras.cmake
+[2.973s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.973s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/ament_cmake_export_libraries-extras.cmake
+[2.973s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/ament_cmake_export_targets-extras.cmake
+[2.973s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.973s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.973s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.974s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/custom_messageConfig.cmake
+[2.974s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/cmake/custom_messageConfig-version.cmake
+[2.974s] -- Installing: /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/install/custom_message/share/custom_message/package.xml
+[2.976s] Invoked command in '/home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/muneeb/Desktop/ROS2-Training/hands_on/02_custom_message_interface/build/custom_message

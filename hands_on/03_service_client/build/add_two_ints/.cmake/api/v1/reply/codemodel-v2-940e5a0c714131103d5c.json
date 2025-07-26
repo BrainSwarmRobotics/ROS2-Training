@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6d5df91172b988e2d85d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "add_two_ints__py",
+					"jsonFile" : "directory-add_two_ints__py-3875bc5bf51d5aa5f26c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/muneeb/Desktop/ROS2-Training/hands_on/03_service_client/build/add_two_ints/add_two_ints__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "add_two_ints",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints-a1466e3cde47de7bde80.json",
+					"name" : "add_two_ints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__cpp-304aa1e803165468620d.json",
+					"name" : "add_two_ints__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "add_two_ints__py::@397c54bccc5bf8ccc40d",
+					"jsonFile" : "target-add_two_ints__py-e8123032baf2f5130ad0.json",
+					"name" : "add_two_ints__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_generator_c-a793b2ef8ef24b53ec01.json",
+					"name" : "add_two_ints__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_generator_py-871e056915b3f12531f7.json",
+					"name" : "add_two_ints__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_c-c64014c3a17994239b75.json",
+					"name" : "add_two_ints__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_c__pyext-a815e3e0ac0289de648e.json",
+					"name" : "add_two_ints__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_cpp-508df67038bf4ef2789e.json",
+					"name" : "add_two_ints__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_fastrtps_c-2bd1615b240d76775bbf.json",
+					"name" : "add_two_ints__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_fastrtps_c__pyext-fb6817256cfd93cdc84c.json",
+					"name" : "add_two_ints__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_fastrtps_cpp-a3dfd3c8345827ea59ea.json",
+					"name" : "add_two_ints__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_introspection_c-7da47a5983f1b6236845.json",
+					"name" : "add_two_ints__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_introspection_c__pyext-bb2803a2be3972c814b9.json",
+					"name" : "add_two_ints__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints__rosidl_typesupport_introspection_cpp-b1b7617b1b8ed0448f2a.json",
+					"name" : "add_two_ints__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_client-95960e1fe8a0d87e9381.json",
+					"name" : "add_two_ints_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_server-3c150279f52df604e70e.json",
+					"name" : "add_two_ints_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_uninstall-fb412819532379d89d5c.json",
+					"name" : "add_two_ints_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_add_two_ints_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_add_two_ints_egg-a50545fa1ab501cb3a14.json",
+					"name" : "ament_cmake_python_build_add_two_ints_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_add_two_ints::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_add_two_ints-9c4f20e4f099caad3d38.json",
+					"name" : "ament_cmake_python_copy_add_two_ints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-15118bdd37ed2827acce.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/muneeb/Desktop/ROS2-Training/hands_on/03_service_client/build/add_two_ints",
+		"source" : "/home/muneeb/Desktop/ROS2-Training/hands_on/03_service_client/src/add_two_ints"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

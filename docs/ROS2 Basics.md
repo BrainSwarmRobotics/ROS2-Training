@@ -111,7 +111,7 @@ ROS 2 uses strongly typed messages for communication between nodes. Each message
 - Each message type supports **serialization** and **transport** across ROS middleware (DDS).
 - Use [ros2 interface show `<package>/msg/<Message>`] to explore message structure.
 
-![](/home/muneeb/Desktop/assets/ros2_nodes_publisher_subscriber.png)
+![](../assets/ros2_nodes_publisher_subscriber.png)
 
 ## Services
 
