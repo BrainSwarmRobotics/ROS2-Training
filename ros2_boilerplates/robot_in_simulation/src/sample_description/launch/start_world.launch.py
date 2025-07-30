@@ -43,7 +43,7 @@ def generate_launch_description():
     world_file = os.path.join(
         get_package_share_directory('sample_description'),
         'worlds',
-        'tables_and_cubes_world.sdf'
+        'turtlebot3_world.sdf'
     )
 
 
