@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+
+import rclpy
+from rclpy.node import Node
+from geometry_msgs.msg import Twist
+
+class TurtleTeleop(Node):
+    def __init__(self):
+        super().__init__('turtle_teleop_pub')
+        self.publisher_ = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
+        timer_period = 0.5
+        self.timer = self.create_timer(timer_period, self.move_callback)
+
+    def move_callback(self):
+        msg = Twist()
+        msg.linear.x = 2.0
+        msg.angular.z = 1.0
+        self.publisher_.publish(msg)
+        self.get_logger().info('Publishing velocity: Linear=2.0 Angular=1.0')
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = TurtleTeleop()
+    rclpy.spin(node)
+    rclpy.shutdown()
+

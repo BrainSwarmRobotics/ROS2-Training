@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+
+import rclpy
+from rclpy.action import ActionClient
+from rclpy.node import Node
+from turtlesim.action import RotateAbsolute
+from math import pi
+
+class RotateTurtle(Node):
+    def __init__(self):
+        super().__init__('rotate_turtle_action_client')
+        self._client = ActionClient(self, RotateAbsolute, '/turtle1/rotate_absolute')
+        self.send_goal(pi / 2)
+
+    def send_goal(self, angle):
+        goal_msg = RotateAbsolute.Goal()
+        goal_msg.theta = angle
+
+        self._client.wait_for_server()
+        self._send_goal_future = self._client.send_goal_async(goal_msg)
+        self._send_goal_future.add_done_callback(self.goal_response_callback)
+
+    def goal_response_callback(self, future):
+        goal_handle = future.result()
+        if not goal_handle.accepted:
+            self.get_logger().info('Goal rejected 😞')
+            return
+
+        self.get_logger().info('Goal accepted 👍')
+        self._get_result_future = goal_handle.get_result_async()
+        self._get_result_future.add_done_callback(self.result_callback)
+
+    def result_callback(self, future):
+        result = future.result().result
+        self.get_logger().info(f'Result: Final angle = {result.theta}')
+        rclpy.shutdown()
+
+def main(args=None):
+    rclpy.init(args=args)
+    RotateTurtle()
+    rclpy.spin()
+
